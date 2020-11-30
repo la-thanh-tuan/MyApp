@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8ED5E8E7-126F-4A19-A9A7-B28E8C43DFF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C5BFA073-3B0D-4CE4-9DA3-06BDE7F0F145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B83C83CC-3AFB-4B3B-86E9-94E394536C8F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Database design.vsdx = ..\..\Database design.vsdx
+		..\..\..\..\Downloads\Compressed\tedu_35-lessions-11\resources\Deploy diagram.pdf = ..\..\..\..\Downloads\Compressed\tedu_35-lessions-11\resources\Deploy diagram.pdf
+		..\..\..\..\Downloads\Compressed\tedu_35-lessions-11\README.md = ..\..\..\..\Downloads\Compressed\tedu_35-lessions-11\README.md
+		..\..\Usecases.vsdx = ..\..\Usecases.vsdx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.API", "src\MyApp.API\MyApp.API.csproj", "{33C3E086-D407-42D9-950D-42DC05D867D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Portal", "src\MyApp.Portal\MyApp.Portal.csproj", "{7B16FEFB-B81D-442D-92C6-758A98CB10D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.ViewModels", "src\MyApp.ViewModels\MyApp.ViewModels.csproj", "{5FDA76E8-7207-4AF3-B138-E8530E1E4E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33C3E086-D407-42D9-950D-42DC05D867D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C3E086-D407-42D9-950D-42DC05D867D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C3E086-D407-42D9-950D-42DC05D867D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C3E086-D407-42D9-950D-42DC05D867D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B16FEFB-B81D-442D-92C6-758A98CB10D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B16FEFB-B81D-442D-92C6-758A98CB10D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B16FEFB-B81D-442D-92C6-758A98CB10D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B16FEFB-B81D-442D-92C6-758A98CB10D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDA76E8-7207-4AF3-B138-E8530E1E4E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDA76E8-7207-4AF3-B138-E8530E1E4E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDA76E8-7207-4AF3-B138-E8530E1E4E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDA76E8-7207-4AF3-B138-E8530E1E4E57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33C3E086-D407-42D9-950D-42DC05D867D3} = {8ED5E8E7-126F-4A19-A9A7-B28E8C43DFF0}
+		{7B16FEFB-B81D-442D-92C6-758A98CB10D9} = {8ED5E8E7-126F-4A19-A9A7-B28E8C43DFF0}
+		{5FDA76E8-7207-4AF3-B138-E8530E1E4E57} = {8ED5E8E7-126F-4A19-A9A7-B28E8C43DFF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90241C4A-991D-4C25-9798-FB25AE4AE555}
+	EndGlobalSection
+EndGlobal
